@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#incrementBtn,
+#decrementBtn {
+  padding: 10px;
+  margin: 20px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+#incrementBtn:hover,
+#decrementBtn:hover {
+  color: white;
+  background-color: lightblue;
+  cursor: pointer;
+}
+#incrementBtn:active,
+#decrementBtn:active {
+  color: white;
+  background-color: black;
+}
